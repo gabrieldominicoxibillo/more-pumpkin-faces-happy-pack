@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.more_pumpkin_faces.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
