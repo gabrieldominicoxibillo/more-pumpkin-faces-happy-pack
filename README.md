@@ -33,3 +33,23 @@
 | <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_triangle_eyes.png" alt="Triangle Eyes Pumpkin" width="64"> | Triangle Eyes Pumpkin |
 | <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_crooked_smile.png" alt="Crooked Smile Pumpkin" width="64"> | Crooked Smile Pumpkin |
 | <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_monster_grin.png" alt="Monster Grin Pumpkin" width="64"> | Monster Grin Pumpkin |
+
+## 🧭 How to Install
+
+1.  **Download the mod**
+    *   Grab the `.jar` file from the [Releases](https://github.com/gabrieldominicoxibillo/more-pumpkin-faces-happy-pack/releases) section.
+
+2.  **Place the mod in your Minecraft `mods` folder**
+    *   Move the downloaded `.jar` file into:
+        ```
+        %appdata%\.minecraft\mods
+        ```
+    *   If you can’t find the folder:
+        1.  Press `Windows` + `R`
+        2.  Type `%appdata%` and press Enter.
+        3.  Open the `.minecraft` folder.
+        4.  If the `mods` folder doesn’t exist, create one manually.
+
+3.  **Launch Minecraft with Fabric**
+    *   Make sure you have [Fabric Loader](https://fabricmc.net/use/installer/) installed for Minecraft 1.21.
+    *   Start the game, and the mod should load automatically.
