@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "more-pumpkin-faces-happy-pack",
+	"id": "more_pumpkin_faces_emotions",
 	"version": "${version}",
 	"name": "More Pumpkin Faces: Happy Pack",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.more_pumpkin_faces.MorePumpkinFacesHappyPack"
+			"com.more_pumpkin_faces.MorePumpkinFacesEmotions"
 		],
 		"client": [
 			"com.more_pumpkin_faces.MorePumpkinFacesHappyPackClient"
