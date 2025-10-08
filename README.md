@@ -1,10 +1,12 @@
-<p align="center">
-  <img src="src\main\resources\assets\more-pumpkin-faces-happy-pack\pack.png" alt="Logo" width="200"/>
+<div style="text-align: center;">
+  <img src="src/main/resources/assets/more-pumpkin-faces-happy-pack/pack.png" alt="Logo" width="200">
+</div>
+
+<h1 style="text-align: center;">More Pumpkin Faces - Emotions</h1>
+
+<p style="text-align: center;">
+  A Minecraft mod for Fabric 1.21 that adds a variety of new carved pumpkins with different emotional faces.
 </p>
-
-<h1 align="center">More Pumpkin Faces - Emotions</h1>
-
-<p align="center">A Minecraft mod for Fabric 1.21 that adds a variety of new carved pumpkins with different emotional faces.</p>
 
 <hr>
 
