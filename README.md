@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="src/main/resources/assets/more-pumpkin-faces-happy-pack/pack.png" alt="Logo" width="200">
+  <img src="src/main/resources/assets/more-pumpkin-faces-happy-pack/pack.png" alt="Logo" width="420">
 </div>
 
 <h1 style="text-align: center;">More Pumpkin Faces - Emotions</h1>
