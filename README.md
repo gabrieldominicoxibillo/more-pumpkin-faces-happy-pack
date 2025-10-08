@@ -62,7 +62,7 @@
 
 <hr>
 
-## 💰 If you like this mod, consider buying me a coffee or becoming a member
+### 💰 If you like this mod, consider buying me a coffee or becoming a member
 
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/gabpixel)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gabpixel)
