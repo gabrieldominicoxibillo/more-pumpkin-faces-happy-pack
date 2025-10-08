@@ -1,3 +1,9 @@
+<!-- Badges section -->
+[![CurseForge Downloads](https://img.shields.io/badge/CurseForge-41k-orange?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/your-mod-slug)
+![Mod Version](https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21-green?style=for-the-badge)
+![Loader](https://img.shields.io/badge/Loader-Fabric-yellow?style=for-the-badge&logo=fabricmc)
+
 <div style="text-align: center;">
   <img src="src/main/resources/assets/more-pumpkin-faces-happy-pack/pack.png" alt="Logo" width="420">
 </div>
@@ -53,3 +59,10 @@
 3.  **Launch Minecraft with Fabric**
     *   Make sure you have [Fabric Loader](https://fabricmc.net/use/installer/) installed for Minecraft 1.21.
     *   Start the game, and the mod should load automatically.
+
+<hr>
+
+## 💰 If you like this mod, consider buying me a coffee or becoming a member
+
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/gabpixel)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gabpixel)
