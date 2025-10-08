@@ -9,12 +9,35 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-
+import net.minecraft.block.Block;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 // This class handles registering all the wearable pumpkin helmet items
 // Each item is a BlockItem that can be worn in the helmet slot
 public class ModItems {
+
+    public static final Map<String, Item> PUMPKIN_HELMETS = new HashMap<>();
+    public static final List<Item> ALL_ITEMS = new ArrayList<>();
+
+    static {
+        // Loop through all the blocks we registered
+        for (Map.Entry<String, Block> entry : ModBlocks.PUMPKIN_BLOCKS.entrySet()) {
+            String face = entry.getKey();
+            Block block = entry.getValue();
+            String itemName = "pumpkin_helmet_" + face;
+
+            Item helmet = register(
+                    new PumpkinHelmetHappy(block, new Item.Settings().maxCount(1)),
+                    itemName
+            );
+
+            PUMPKIN_HELMETS.put(face, helmet);
+            ALL_ITEMS.add(helmet);
+        }
+    }
 
     // Register each pumpkin helmet item
     // Each one:
@@ -22,94 +45,94 @@ public class ModItems {
     //   - References its corresponding block (from ModBlocks)
     //   - Has maxCount(1) so it can only stack to 1 (like armor)
 
-    public static final Item PUMPKIN_HELMET_HAPPY = register(
-            new PumpkinHelmetHappy(
-                    ModBlocks.PUMPKIN_HAPPY_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_happy"
-    );
-
-    public static final Item PUMPKIN_HELMET_EVIL_GRIN = register(
-            new PumpkinHelmetEvilGrin(
-                    ModBlocks.PUMPKIN_EVIL_GRIN_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_evil_grin"
-    );
-
-    public static final Item PUMPKIN_HELMET_FRIENDLY_SMILE = register(
-            new PumpkinHelmetFriendlySmile(
-                    ModBlocks.PUMPKIN_FRIENDLY_SMILE_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_friendly_smile"
-    );
-
-    public static final Item PUMPKIN_HELMET_TOOTHY_GRIN = register(
-            new PumpkinHelmetToothyGrin(
-                    ModBlocks.PUMPKIN_TOOTHY_GRIN_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_toothy_grin"
-    );
-
-    public static final Item PUMPKIN_HELMET_WICKED_SMILE = register(
-            new PumpkinHelmetWickedSmile(
-                    ModBlocks.PUMPKIN_WICKED_SMILE_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_wicked_smile"
-    );
-
-    public static final Item PUMPKIN_HELMET_MENACING_FANGS = register(
-            new PumpkinHelmetMenacingFangs(
-                    ModBlocks.PUMPKIN_MENACING_FANGS_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_menacing_fangs"
-    );
-
-    public static final Item PUMPKIN_HELMET_SILLY_FACE = register(
-            new PumpkinHelmetSillyFace(
-                    ModBlocks.PUMPKIN_SILLY_FACE_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_silly_face"
-    );
-
-    public static final Item PUMPKIN_HELMET_SCARY_TEETH = register(
-            new PumpkinHelmetScaryTeeth(
-                    ModBlocks.PUMPKIN_SCARY_TEETH_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_scary_teeth"
-    );
-
-    public static final Item PUMPKIN_HELMET_TRIANGLE_EYES = register(
-            new PumpkinHelmetTriangleEyes(
-                    ModBlocks.PUMPKIN_TRIANGLE_EYES_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_triangle_eyes"
-    );
-
-    public static final Item PUMPKIN_HELMET_CROOKED_SMILE = register(
-            new PumpkinHelmetCrookedSmile(
-                    ModBlocks.PUMPKIN_CROOKED_SMILE_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_crooked_smile"
-    );
-
-    public static final Item PUMPKIN_HELMET_MONSTER_GRIN = register(
-            new PumpkinHelmetMonsterGrin(
-                    ModBlocks.PUMPKIN_MONSTER_GRIN_BLOCK,
-                    new Item.Settings().maxCount(1)
-            ),
-            "pumpkin_helmet_monster_grin"
-    );
-
+  //  public static final Item PUMPKIN_HELMET_HAPPY = register(
+  //          new PumpkinHelmetHappy(
+  //                  ModBlocks.PUMPKIN_HAPPY_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_happy"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_EVIL_GRIN = register(
+  //          new PumpkinHelmetEvilGrin(
+  //                  ModBlocks.PUMPKIN_EVIL_GRIN_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_evil_grin"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_FRIENDLY_SMILE = register(
+  //          new PumpkinHelmetFriendlySmile(
+  //                  ModBlocks.PUMPKIN_FRIENDLY_SMILE_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_friendly_smile"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_TOOTHY_GRIN = register(
+  //          new PumpkinHelmetToothyGrin(
+  //                  ModBlocks.PUMPKIN_TOOTHY_GRIN_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_toothy_grin"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_WICKED_SMILE = register(
+  //          new PumpkinHelmetWickedSmile(
+  //                  ModBlocks.PUMPKIN_WICKED_SMILE_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_wicked_smile"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_MENACING_FANGS = register(
+  //          new PumpkinHelmetMenacingFangs(
+  //                  ModBlocks.PUMPKIN_MENACING_FANGS_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_menacing_fangs"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_SILLY_FACE = register(
+  //          new PumpkinHelmetSillyFace(
+  //                  ModBlocks.PUMPKIN_SILLY_FACE_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_silly_face"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_SCARY_TEETH = register(
+  //          new PumpkinHelmetScaryTeeth(
+  //                  ModBlocks.PUMPKIN_SCARY_TEETH_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_scary_teeth"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_TRIANGLE_EYES = register(
+  //          new PumpkinHelmetTriangleEyes(
+  //                  ModBlocks.PUMPKIN_TRIANGLE_EYES_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_triangle_eyes"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_CROOKED_SMILE = register(
+  //          new PumpkinHelmetCrookedSmile(
+  //                  ModBlocks.PUMPKIN_CROOKED_SMILE_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_crooked_smile"
+  //  );
+//
+  //  public static final Item PUMPKIN_HELMET_MONSTER_GRIN = register(
+  //          new PumpkinHelmetMonsterGrin(
+  //                  ModBlocks.PUMPKIN_MONSTER_GRIN_BLOCK,
+  //                  new Item.Settings().maxCount(1)
+  //          ),
+  //          "pumpkin_helmet_monster_grin"
+  //  );
+//
     // Helper method to register an item
     // This reduces code duplication
     // Parameters:
@@ -139,11 +162,13 @@ public class ModItems {
    }
 
 
-    public static final List<Item> ALL_ITEMS = List.of(
-            // 🟠 Pumpkin Helmets
-            PUMPKIN_HELMET_HAPPY
+ //  public static final List<Item> ALL_ITEMS = List.of(
+ //          // 🟠 Pumpkin Helmets
+ //          PUMPKIN_HELMET_HAPPY
 
 
 
-    );
+ //  );
+
+
 }
