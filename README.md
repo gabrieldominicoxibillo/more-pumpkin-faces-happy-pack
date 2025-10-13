@@ -28,16 +28,16 @@
 
 | Texture | Name |
 | :---: | :--- |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-puppy-smile.png" alt="Puppy Smile Pumpkin" width="64"> | Puppy Smile  |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-woozy.png" alt="Woozy Pumpkin" width="64"> | Woozy        |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-huh.png" alt="Huh Pumpkin" width="64"> | Huh          |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-melted.png" alt="Melted Pumpkin" width="64"> | Melted       |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-wha.png" alt="Wha Pumpkin" width="64"> | Wha          |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-uwu.png" alt="Uwu Pumpkin" width="64"> | Uwu          |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-derpy.png" alt="Derpy Pumpkin" width="64"> | Derpy        |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-kya.png" alt="Kya Pumpkin" width="64"> | Kya          |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-owo-2.png" alt="Owo 2 Pumpkin" width="64"> | Owo 2        |
-| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-owo-1.png" alt="Owo 1 Pumpkin" width="64"> | Owo 1        |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-puppy-smile.png" alt="Puppy Smile Pumpkin" width="64"> | Puppy Smile   |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-woozy.png" alt="Woozy Pumpkin" width="64">       | Woozy         |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-huh.png" alt="Huh Pumpkin" width="64">         | Huh           |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-melted.png" alt="Melted Pumpkin" width="64">     | Melted        |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-wha.png" alt="Wha Pumpkin" width="64">         | Wha           |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-uwu.png" alt="Uwu Pumpkin" width="64">         | Uwu           |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-derpy.png" alt="Derpy Pumpkin" width="64">       | Derpy         |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-kya.png" alt="Kya Pumpkin" width="64">         | Kya           |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-owo-2.png" alt="Owo 2 Pumpkin" width="64">       | Owo 2         |
+| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/block/pumpkin-owo-1.png" alt="Owo 1 Pumpkin" width="64">       | Owo 1         |
 ## 🧭 How to Install
 
 1.  **Download the mod**
