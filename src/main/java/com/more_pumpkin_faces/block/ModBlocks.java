@@ -11,13 +11,11 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import com.more_pumpkin_faces.block.pumpkinhelmets.PumpkinHelmetHappyBlock;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.ArrayList;
-import net.minecraft.block.Block;
-import com.more_pumpkin_faces.block.pumpkinhelmets.RotatablePumpkinBlock;
+
+import com.more_pumpkin_faces.item.pumpkinhelmets.RotatablePumpkinBlock;
 
 
 public class ModBlocks {
@@ -26,23 +24,22 @@ public class ModBlocks {
 
     // Define all your pumpkin face names in one place
     private static final String[] PUMPKIN_FACES = {
-            "happy",
-            "evil_grin",
-            "friendly_smile",
-            "toothy_grin",
-            "wicked_smile",
-            "menacing_fangs",
-            "silly_face",
-            "scary_teeth",
-            "triangle_eyes",
-            "crooked_smile",
-            "monster_grin"
+            "puppy-smile",
+            "woozy",
+            "huh",
+            "melted",
+            "wha",
+            "uwu",
+            "derpy",
+            "kya",
+            "owo-2",
+            "owo-1"
     };
 
     // Register all blocks at once
     static {
         for (String face : PUMPKIN_FACES) {
-            String blockName = "pumpkin_helmet_" + face;
+            String blockName = "pumpkin-" + face;
             Block block = register(
                     new RotatablePumpkinBlock(AbstractBlock.Settings.copy(Blocks.CARVED_PUMPKIN)),
                     blockName,

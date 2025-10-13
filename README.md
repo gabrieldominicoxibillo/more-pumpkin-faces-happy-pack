@@ -28,18 +28,16 @@
 
 | Texture | Name |
 | :---: | :--- |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_happy.png" alt="Happy Pumpkin" width="64"> | Happy Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_evil_grin.png" alt="Evil Grin Pumpkin" width="64"> | Evil Grin Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_friendly_smile.png" alt="Friendly Smile Pumpkin" width="64"> | Friendly Smile Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_toothy_grin.png" alt="Toothy Grin Pumpkin" width="64"> | Toothy Grin Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_wicked_smile.png" alt="Wicked Smile Pumpkin" width="64"> | Wicked Smile Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_menacing_fangs.png" alt="Menacing Fangs Pumpkin" width="64"> | Menacing Fangs Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_silly_face.png" alt="Silly Face Pumpkin" width="64"> | Silly Face Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_scary_teeth.png" alt="Scary Teeth Pumpkin" width="64"> | Scary Teeth Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_triangle_eyes.png" alt="Triangle Eyes Pumpkin" width="64"> | Triangle Eyes Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_crooked_smile.png" alt="Crooked Smile Pumpkin" width="64"> | Crooked Smile Pumpkin |
-| <img src="src/main/resources/assets/more_pumpkin_faces_emotions/textures/item/pumpkin_helmet_monster_grin.png" alt="Monster Grin Pumpkin" width="64"> | Monster Grin Pumpkin |
-
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-puppy-smile.png" alt="Puppy Smile Pumpkin" width="64"> | Puppy Smile  |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-woozy.png" alt="Woozy Pumpkin" width="64"> | Woozy        |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-huh.png" alt="Huh Pumpkin" width="64"> | Huh          |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-melted.png" alt="Melted Pumpkin" width="64"> | Melted       |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-wha.png" alt="Wha Pumpkin" width="64"> | Wha          |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-uwu.png" alt="Uwu Pumpkin" width="64"> | Uwu          |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-derpy.png" alt="Derpy Pumpkin" width="64"> | Derpy        |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-kya.png" alt="Kya Pumpkin" width="64"> | Kya          |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-owo-2.png" alt="Owo 2 Pumpkin" width="64"> | Owo 2        |
+| <img src="src/main/resources/assets/more_pumpkin_faces/textures/block/pumpkin-owo-1.png" alt="Owo 1 Pumpkin" width="64"> | Owo 1        |
 ## 🧭 How to Install
 
 1.  **Download the mod**

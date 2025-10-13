@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "more_pumpkin_faces_emotions:block/pumpkin-huh",
+    "side": "more_pumpkin_faces_emotions:block/pumpkin_side",
+    "top": "more_pumpkin_faces_emotions:block/pumpkin_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "more_pumpkin_faces_emotions:block/pumpkin-owo-2",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "more_pumpkin_faces_emotions:block/pumpkin-owo-2"
+    },
+    "facing=south": {
+      "model": "more_pumpkin_faces_emotions:block/pumpkin-owo-2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "more_pumpkin_faces_emotions:block/pumpkin-owo-2",
+      "y": 270
+    }
+  }
+}

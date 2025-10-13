@@ -27,7 +27,7 @@ public class ModItems {
         for (Map.Entry<String, Block> entry : ModBlocks.PUMPKIN_BLOCKS.entrySet()) {
             String face = entry.getKey();
             Block block = entry.getValue();
-            String itemName = "pumpkin_helmet_" + face;
+            String itemName = "pumpkin-" + face;
 
             Item helmet = register(
                     new PumpkinHelmetHappy(block, new Item.Settings().maxCount(1)),

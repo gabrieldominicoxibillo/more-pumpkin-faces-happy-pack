@@ -1,5 +1,5 @@
 //#1 the block (rotatable pumpkin)
-package com.more_pumpkin_faces.block.pumpkinhelmets;
+package com.more_pumpkin_faces.item.pumpkinhelmets;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
